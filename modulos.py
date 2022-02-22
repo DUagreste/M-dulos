@@ -25,6 +25,8 @@ from pacote import principal, secundario
 from pacote.subpacote import outros
 
 
+__doc__ = "Esse módulo tem como objetivo efetuar somas, quadráticas e cúbicas"
+
 print(principal.soma(5, 7))
 print(secundario.quadratica(10))
 print(outros.cubica(3))
